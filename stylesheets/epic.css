@@ -1,0 +1,15 @@
+body{background-color: #000; color: #FFF; font-family: Helvetica, Arial, sans-serif; font-size: 12px;}
+.home_epic_bold{font-size: 34px; font-weight: bold;}
+a, a:visited, a:active {color: #eeb300; text-decoration: none;}
+.highlighted{color: #eeb300;}
+.footer_gray{color: #4d4d4d;}
+.floater{float: left;}
+.details{	position: relative; 
+		bottom: -130px; 
+		left: 0px; 
+		background-color: #252525; 
+		width: 100%; 
+		height: 50px; 
+		opacity: .75; 		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+		filter: alpha(opacity=75);}
+#foo{display:none; width: 100%; height: 170px;}
