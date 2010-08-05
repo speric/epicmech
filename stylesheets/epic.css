@@ -1,15 +1,63 @@
-body{background-color: #000; color: #FFF; font-family: Helvetica, Arial, sans-serif; font-size: 12px;}
-.home_epic_bold{font-size: 34px; font-weight: bold;}
-a, a:visited, a:active {color: #eeb300; text-decoration: none;}
-.highlighted{color: #eeb300;}
-.footer_gray{color: #4d4d4d;}
-.floater{float: left;}
-.details{	position: relative; 
-		bottom: -130px; 
-		left: 0px; 
-		background-color: #252525; 
+body{
+	background-color: #000;
+	color: #FFF;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+.home_epic_bold{
+	font-size: 34px;
+	font-weight: bold;
+}
+
+a, a:visited, a:active {
+	color: #eeb300;
+	text-decoration: none;
+}
+
+.highlighted{
+	color: #eeb300;
+}
+
+.footer_gray{
+	color: #4d4d4d;
+}
+
+.floater{
+	float: left;
+	width: 220px;
+	height: 180px;
+	overflow:hidden;
+}
+
+.panel_details{	background-color: #252525;
+		position:relative; 
+		height: 220px;
 		width: 100%; 
-		height: 50px; 
-		opacity: .75; 		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
-		filter: alpha(opacity=75);}
-#foo{display:none; width: 100%; height: 170px;}
+		opacity: .85;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+		filter: alpha(opacity=85);
+		font-weight: bold;
+		padding: 15px 0px 0px 5px;
+
+}
+
+.frontpage_content{
+	height: 130px;	
+	background-color:#252525;
+	position:relative;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: -5px;
+	padding-top: 20px;
+}
+
+.spacer{
+	height: 130px;
+	display:block;
+}
+
+#design_panel{background-image: url('../images/design.png');}
+#development_panel{background-image: url('../images/development.png');}
+#installation_panel{background-image: url('../images/installation.png');}
+#service_panel{background-image: url('../images/service.png');}

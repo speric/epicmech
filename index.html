@@ -4,7 +4,15 @@
   <link rel="stylesheet" href="stylesheets/epic.css"/>
   <script src="javascript/jquery-1.4.2.min.js"></script>
   <script src="javascript/jquery-ui-1.8.2.custom.min.js"></script>
-
+  <script>
+	function showHide(spacer){
+		if ($(spacer).css('display') == "block"){
+			$(spacer).slideUp();
+		}else{
+			$(spacer).slideDown();
+		}		
+	}
+  </script>
 </head>
 <body>
   <div align="center">
@@ -41,19 +49,51 @@
 			</table>
 		</div>
 		<div style="width: 880px; margin-top: 20px;" align="left">
-			<div class="floater" style="background-image: url('images/design.png'); width: 220px; height: 180px;">
-				<div class="details">
-					<span class="highlighted"><a href="#" onclick="$('#foo').toggle();">TEST</a></span>
-				<div id="foo">TEST121231231<br/>werqewr<br/>dsf<br/>kk<br/>kkk<br/>kkkk<br/>kk<br/></div>
 
-				</div>
-			
-			</div>
-			<div class="floater"><img src="images/development.png"/></div>
-			<div class="floater"><img src="images/installation.png"/></div>
-			<div class="floater"><img src="images/service.png"/></div>
-			<div style="clear: both;"></div>
+
+<div id="design_panel" class="floater">
+	<div id="design_spacer" class="spacer">&nbsp;</div>
+	<div class="panel_details">
+		<span class="highlighted"><a href="#" onclick="showHide('#design_spacer');">design</a></span>
+		<div class="frontpage_content">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 		</div>
+	</div>
+</div>
+
+<div id="development_panel" class="floater">
+	<div id="development_spacer" class="spacer">&nbsp;</div>
+	<div class="panel_details">
+		<span class="highlighted"><a href="#" onclick="showHide('#development_spacer');">development</a></span>
+		<div class="frontpage_content">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</div>
+	</div>
+</div>
+
+<div id="installation_panel" class="floater">
+	<div id="installation_spacer" class="spacer">&nbsp;</div>
+	<div class="panel_details">
+		<span class="highlighted"><a href="#" onclick="showHide('#installation_spacer');">installation</a></span>
+		<div class="frontpage_content">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</div>
+	</div>
+</div>
+
+<div id="service_panel" class="floater">
+	<div id="service_spacer" class="spacer">&nbsp;</div>
+	<div class="panel_details">
+		<span class="highlighted"><a href="#" onclick="showHide('#service_spacer');">service</a></span>
+		<div class="frontpage_content">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</div>
+	</div>
+</div>
+
+<div style="clear: both;"></div>
+
+</div>
 		<div class="footer" align="left" style="font-size: 12px; width: 880px; padding-top: 25px;">
 			<div>
 				<div style="float: left;">
