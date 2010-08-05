@@ -40,15 +40,8 @@
 <!-- content here -->
 <div style="width: 880px; margin-top: 20px;" align="left">
 <?php						
-	if($_REQUEST['page'] == "portfolio"){
-		require_once('portfolio.php');
-	}elseif($_REQUEST['page'] == "about"){
-		require_once('about.php');
-	}elseif($_REQUEST['page'] == "contact"){
-		require_once('contact.php');
-	}else{
+	
 		require_once('home.php');
-	}
 ?>
 </div>
 <!-- end content -->
@@ -61,7 +54,7 @@
 					Phone: <strong>(631) 993-0080</strong><br/>
 					Fax: <strong>(631) 993-0081</strong></span>
 				</div>
-				<div style="float: left; padding-left: 50px;">
+				<div style="float: left; padding-left: 50px;">12:05 PM 8/5/2010
 					<strong>Office Hours</strong><br/>
 					<span class="footer_gray">Monday - Friday</br>
 					7:00am - 5:00pm
