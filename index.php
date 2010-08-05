@@ -40,11 +40,11 @@
 <!-- content here -->
 <div style="width: 880px; margin-top: 20px;" align="left">
 <?php						
-if($_REQUEST['page'] == "home" || $_REQUEST['page'] == ""){
+if($_REQUEST['page'] == "home" || empty($_REQUEST['page'])){
 	require_once('home.php');
 }else{
 	require_once($_REQUEST['page'].'.php');
-}							}	
+}
 ?>
 </div>
 <!-- end content -->
