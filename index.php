@@ -78,7 +78,7 @@
 				7:00am - 5:00pm
 			</div>
 			<div id="bottom_links">
-				<span class="footer_gray">Home | Projects | References | About Us | Team | Contact</span>
+				<!--<span class="footer_gray">Home | Projects | References | About Us | Team | Contact</span>-->
 			</div>
 			<div style="clear: both;"></div>
 		</div>
