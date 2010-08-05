@@ -5,7 +5,7 @@
 		</div>
                	<div style="width: 890px; padding-top: 25px; font-weight: bold;" align="left">
 			<table style="font-size: 14px;">
-				<tr><td><img src="images/phone.png" height="19" width="19"/></td><td><strong><span class="highlighted">(631) 993-0080</span> Call us to learn more</strong></td><td width="25">&nbsp;</td>
+				<tr><td><img src="images/phone.png" height="19" width="19"/></td><td><strong><span class="highlighted">(631) 993-0080</span> Call us to learn more</strong></td><td width="20">&nbsp;</td>
 				<td><img src="images/torch.png" height="19" width="19"/></td><td>Proudly serving the New York City, Westchester, Queens and Long Island areas</td></tr>
 			</table>
 		</div>
