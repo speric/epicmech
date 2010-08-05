@@ -62,7 +62,7 @@ if($_REQUEST['page'] == "home" || empty($_REQUEST['page'])){
 			<span class="footer_gray">Monday - Friday</br>
 			7:00am - 5:00pm
 		</div>
-		<div style="float: left; padding-left: 225px;">
+		<div style="float: left; padding-left: 95px;">
 			<span class="footer_gray">Home | Projects | References | About Us | Team | Contact</span>
 		</div>
 		<div style="clear: both;"></div>
