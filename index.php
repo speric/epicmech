@@ -1,9 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <html>
 <head>
   <title>EPIC Mechanical Contractors, LLC</title>
   <link rel="stylesheet" href="stylesheets/epic.css"/>
-  <meta name="keywords" content="">  <meta name="description" content="Specializing in the design, development, installation and servicing of systems in commerical & residential buildings.">
+  <script src="javascript/jquery-1.4.2.min.js"></script>
+  <script src="javascript/jquery-ui-1.8.2.custom.min.js"></script>
+  <script>
+	function showHide(spacer){
+		if ($(spacer).css('display') == "block"){
+			$(spacer).slideUp();
+		}else{
+			$(spacer).slideDown();
+		}		
+	}
+  </script>
 </head>
 <body>
   <div align="center">
@@ -28,7 +37,22 @@
 		</div>
         </div>
 
-  
+         	<div style="width: 880px; padding-top: 40px; font-size: 24px; line-height: 50px;" align="left">
+			<span class="home_epic_bold">EPIC Mechanical Contractors, LLC</span> specializes in the <span class="highlighted">design</span>,<br/>
+			<span class="highlighted">development</span>, <span class="highlighted">installation</span> and <span class="highlighted">servicing</span> of heating, ventilating, and<br/>
+			air-conditioning (HVAC) systems in commerical & residential buildings.
+		</div>
+               	<div style="width: 880px; padding-top: 25px; font-weight: bold;" align="left">
+			<table style="font-size: 14px;">
+				<tr><td><img src="images/phone.png" height="19" width="19"/></td><td><strong><span class="highlighted">(631) 993-0080</span> Call us to learn more</strong></td><td width="65">&nbsp;</td>
+				<td><img src="images/torch.png" height="19" width="19"/></td><td>Proudly serving the New York City, Westchester, Queens and Long Island areas</td></tr>
+			</table>
+		</div>
+<!-- content here -->
+<div style="width: 880px; margin-top: 20px;" align="left">
+
+</div>
+<!-- end content -->
 		<div class="footer" align="left" style="font-size: 12px; width: 880px; padding-top: 25px;">
 			<div>
 				<div style="float: left;">
