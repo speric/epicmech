@@ -39,7 +39,7 @@
 
 <!-- content here -->
 <div style="width: 880px; margin-top: 20px;" align="left">
-
+<?php							if($_REQUEST['page'] == "portfolio"){								require_once('portfolio.php');							}elseif($_REQUEST['page'] == "about"){								require_once('about.php');							}elseif($_REQUEST['page'] == "contact"){								require_once('contact.php');							}else{								require_once('home.php');							}						?>
 </div>
 <!-- end content -->
 		<div class="footer" align="left" style="font-size: 12px; width: 880px; padding-top: 25px;">
