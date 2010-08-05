@@ -37,17 +37,6 @@
 		</div>
         </div>
 
-         	<div style="width: 880px; padding-top: 40px; font-size: 24px; line-height: 50px;" align="left">
-			<span class="home_epic_bold">EPIC Mechanical Contractors, LLC</span> specializes in the <span class="highlighted">design</span>,<br/>
-			<span class="highlighted">development</span>, <span class="highlighted">installation</span> and <span class="highlighted">servicing</span> of heating, ventilating, and<br/>
-			air-conditioning (HVAC) systems in commerical & residential buildings.
-		</div>
-               	<div style="width: 880px; padding-top: 25px; font-weight: bold;" align="left">
-			<table style="font-size: 14px;">
-				<tr><td><img src="images/phone.png" height="19" width="19"/></td><td><strong><span class="highlighted">(631) 993-0080</span> Call us to learn more</strong></td><td width="65">&nbsp;</td>
-				<td><img src="images/torch.png" height="19" width="19"/></td><td>Proudly serving the New York City, Westchester, Queens and Long Island areas</td></tr>
-			</table>
-		</div>
 <!-- content here -->
 <div style="width: 880px; margin-top: 20px;" align="left">
 
