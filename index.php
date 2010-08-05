@@ -38,12 +38,12 @@
 					<div id="menu_links" align="center">
 						<table id="links_table">
 							<tr>
-								<td><img src="images/h.png"/></td><td class="links_cell">Home</td>
-								<td><img src="images/p.png"/></td><td class="links_cell">Projects</td>
-								<td><img src="images/r.png"/></td><td class="links_cell">References</td>
-								<td><img src="images/a.png"/></td><td class="links_cell">About Us</td>
-								<td><img src="images/t.png"/></td><td class="links_cell">Team</td>
-								<td><img src="images/c.png"/></td><td class="links_cell">Contact</td>
+								<td><img src="images/h.png"/></td><td class="links_cell"><a href="/" class="white">Home</a></td>
+								<td><img src="images/p.png"/></td><td class="links_cell"><a href="/projects" class="white">Projects</a></td>
+								<td><img src="images/r.png"/></td><td class="links_cell"><a href="/references" class="white">References</a></td>
+								<td><img src="images/a.png"/></td><td class="links_cell"><a href="/aboutus" class="white">About Us</a></td>
+								<td><img src="images/t.png"/></td><td class="links_cell"><a href="/team" class="white">Team</a></td>
+								<td><img src="images/c.png"/></td><td class="links_cell"><a href="/contact" class="white">Contact</a></td>
 							</tr>
 						</table>
 					</div>
