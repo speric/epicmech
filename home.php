@@ -1,4 +1,4 @@
-         	<div style="width: 880px; padding-top: 40px; font-size: 24px; line-height: 50px;" align="left">
+         	<div style="width: 880px; font-size: 24px; line-height: 50px;" align="left">
 			<span class="home_epic_bold">EPIC Mechanical Contractors, LLC</span> specializes in the <span class="highlighted">design</span>,<br/>
 			<span class="highlighted">development</span>, <span class="highlighted">installation</span> and <span class="highlighted">servicing</span> of heating, ventilating, and<br/>
 			air-conditioning (HVAC) systems in commerical & residential buildings.
