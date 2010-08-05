@@ -67,6 +67,7 @@
 		</div>
 	</div>
   </div>
+<?php echo $_REQUEST['page']; ?>
 </body>
 
 </html>
