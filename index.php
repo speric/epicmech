@@ -46,6 +46,7 @@
 		require_once('contact.php');
 	}else{
 		require_once('home.php');
+}
 ?>
 </div>
 <!-- end content -->
