@@ -40,8 +40,11 @@
 <!-- content here -->
 <div style="width: 880px; margin-top: 20px;" align="left">
 <?php						
-	
-		require_once('home.php');
+if($_REQUEST['page'] == "home" || $_REQUEST['page'] == ""){
+	require_once('home.php');
+}else{
+	require_once($_REQUEST['page'].'.php');
+}							}	
 ?>
 </div>
 <!-- end content -->
@@ -67,7 +70,6 @@
 		</div>
 	</div>
   </div>
-<?php echo $_REQUEST['page']; ?>
 </body>
 
 </html>
