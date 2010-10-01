@@ -76,7 +76,7 @@ a.white, a.white:visited, a.white:active {
 #main_container{
 	width: 1070px;
 	height: 826px;
-	background-image: url('http://www.prudentiadigital.com/images/bg.png');
+	background-image: url('/images/bg.png');
 	background-repeat: no-repeat;
 }
 
@@ -134,17 +134,17 @@ a.white, a.white:visited, a.white:active {
 }
 
 #design_panel{
-	background-image: url('http://www.prudentiadigital.com/images/design.png');
+	background-image: url('/images/design.png');
 }
 
 #development_panel{
-	background-image: url('http://www.prudentiadigital.com/images/development.png');
+	background-image: url('/images/development.png');
 }
 
 #installation_panel{
-	background-image: url('http://www.prudentiadigital.com/images/installation.png');
+	background-image: url('/images/installation.png');
 }
 
 #service_panel{
-	background-image: url('http://www.prudentiadigital.com/images/service.png');
+	background-image: url('/images/service.png');
 }
